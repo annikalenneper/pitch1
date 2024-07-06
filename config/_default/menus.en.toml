@@ -24,8 +24,8 @@ weight = 1
 
 [[main]]
 parent = "Anforderungen"
-name = "Die Nutzer*innen"
-pageRef = "/authors"
+name = "Stakeholder"
+pageRef = "/users"
 weight = 2
 
 [[main]]
