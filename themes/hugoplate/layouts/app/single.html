@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+  
+  
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center narrow-container">
+        {{ range .Params.features }}
+          {{ partial "components/feature-style" . }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  
+{{ end }}

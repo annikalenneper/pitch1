@@ -1,0 +1,66 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Das Projekt"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = "Prinzipien"
+pageRef = "/about"
+weight = 2
+
+[[main]]
+name = "Anforderungen"
+pageRef = "/elements"
+weight = 3
+
+[[main]]
+parent = "Anforderungen"
+name = "Die Domäne"
+pageRef = "/blog"
+weight = 1
+
+[[main]]
+parent = "Anforderungen"
+name = "Die Nutzer*innen"
+pageRef = "/authors"
+weight = 2
+
+[[main]]
+parent = "Anforderungen"
+name = "Anforderungsbereiche"
+pageRef = "/categories"
+weight = 3
+
+
+[[main]]
+weight = 4
+name = "Die App"
+
+[[main]]
+parent = "Die App"
+name = "Funktionen der 1. Version des Planers"
+pageRef = "/f-base"
+
+[[main]]
+parent = "Die App"
+name = "Geplante Erweiterungen"
+pageRef = "/contact"
+
+[[main]]
+parent = "Die App"
+name = "Zukunftsperspektiven"
+pageRef = "/authors"
+
+# footer menu
+[[footer]]
+name = "Impressum"
+pageRef = "/about"
+weight = 1
+
+[[footer]]
+name = "Datenschutz"
+pageRef = "/privacy-policy"
+weight = 3

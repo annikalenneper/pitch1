@@ -1,0 +1,13 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+ 
+  <section class="section-sm">
+    <div class="narrow-container">
+      <div class="row justify-center container">
+        {{ range .Params.principles }}
+          {{ partial "components/principle" . }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}
